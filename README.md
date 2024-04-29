@@ -2,7 +2,7 @@
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+Explore the Builder design pattern, understanding its strengths and weaknesses. Learn to implement it to construct complex objects efficiently. Engage in group discussions to deepen your understanding of Java design patterns.
 
 ## Prerequisites
 
@@ -12,42 +12,28 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ## Content
 
-| Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:| ------ |
-| [Setup](./setup/README.md)                               | -- | -- | Setting up the development environment  |
-| [Concepts](./concepts/README.md)                         | -- | -- | tktk skills covered                     |
-| [tktk Microlesson Name](./tktk-microlesson-01/README.md) | -- | -- | tktk skills covered                     |
-| [tktk Microlesson Name](./tktk-microlesson-02/README.md) | -- | -- | tktk skills covered                     |
-| [tktk Microlesson Name](./tktk-microlesson-03/README.md) | -- | -- | tktk skills covered                     |
-| **Total content**                                        | -- | -- |                                         |
+| Lesson | Time | Learning Objectives |
+| ------ |:----------:|:------ |
+| [Builder Design Pattern](./builder-design-pattern/README.md) | 30 min | Examine the advantages and limitations of builder design patterns.  |
+| [Builder Design Pattern Code-Along](./builder-design-patterns-code-along/README.md) | 20 min | Practice implementing the builder design pattern to construct complex objects with a controlled configuration.  |
+| [Buider Design-Pattern Discussion](./builder-design-patterns-discussion/README.md) | 35 min | Engage in group discussions about Java design patterns.  |
+| **Total content**  | 85 min |  |
 
-## Level Up content
+### Additional Resources:
 
-| Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:| ------ |
-| [tktk Microlesson Name](./tktk-microlesson-04/README.md) | -- | -- | tktk skills covered                     |
-| **Total Level Up content**                               | -- | -- |                                         |
-
-## References
-
-📖 [Reference Materials](./references/README.md)
-
-## Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](#tktk-deployed-app-url)
-
-🐙 [Repository](#tktk-repository-for-deployed-app)
+- "Design Patterns: Elements of Reusable Object-Oriented Software" by Erich Gamma, Richard Helm, Ralph Johnson, John
+  Vlissides
+- "Head First Design Patterns" by Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra
+- "Refactoring: Improving the Design of Existing Code" by Martin Fowler
+- "Design Patterns in Java" by Steven John Metsker
+- "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin
+- "Effective Java" by Joshua Bloch
 
 ## Internal resources
-
-✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
-
-🎥 [Video Hub](./internal-resources/video-hub.md)
 
 🏗️ [Release Notes](./internal-resources/release-notes.md)
 
 ---
 
 **Find a 👾 bug 👾 or have suggestions? [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/module-feedback.md)!**
+
