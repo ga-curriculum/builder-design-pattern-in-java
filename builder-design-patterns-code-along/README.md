@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - tktk Microlesson Name](./assets/hero.png)
+# ![Builder Design Pattern Code-Along](./assets/builder-code-along.png)
 
 **Learning objective:** By the end of this lesson, students will be able to practice implementing the builder design pattern to construct complex objects with a controlled configuration. 
 

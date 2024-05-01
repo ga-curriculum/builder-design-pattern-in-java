@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - tktk Microlesson Name](./assets/hero.png)
+# ![Builder Design Pattern](./assets/builder-design-pattern_1.png)
 
 **Learning objective:** By the end of this lesson, students will be able to examine the advantages and limitations of builder design patterns. 
 
