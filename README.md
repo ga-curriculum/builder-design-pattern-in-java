@@ -6,9 +6,7 @@ Explore the Builder design pattern, understanding its strengths and weaknesses. 
 
 ## Prerequisites
 
-- tktk
-- tktk
-- tktk
+- None 
 
 ## Content
 
