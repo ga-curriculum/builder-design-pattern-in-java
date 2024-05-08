@@ -13,9 +13,9 @@ Explore the Builder design pattern, understanding its strengths and weaknesses. 
 | Lesson | Time | Learning Objectives |
 | ------ |:----------:|:------ |
 | [Builder Design Pattern](./builder-design-pattern/README.md) | 30 min | Examine the advantages and limitations of builder design patterns.  |
-| [Builder Design Pattern Code-Along](./builder-design-patterns-code-along/README.md) | 20 min | Practice implementing the builder design pattern to construct complex objects with a controlled configuration.  |
+| [Builder Design Pattern Code-Along](./builder-design-patterns-code-along/README.md) | 25 min | Practice implementing the builder design pattern to construct complex objects with a controlled configuration.  |
 | [Buider Design-Pattern Discussion](./builder-design-patterns-discussion/README.md) | 35 min | Engage in group discussions about Java design patterns.  |
-| **Total content**  | 85 min |  |
+| **Total content**  | 90 min |  |
 
 ### Additional Resources:
 
