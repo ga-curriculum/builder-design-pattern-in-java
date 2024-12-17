@@ -1,23 +1,22 @@
-# ![[Builder Design Patterns]](../assets/builder-design-pattern-header.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Builder Design Pattern in Java</span>
+</h1>
 
 ## About
 
-Explore the Builder design pattern, understanding its strengths and weaknesses. Learn to implement it to construct complex objects efficiently. Engage in group discussions to deepen your understanding of Java design patterns.
+tktk Write a short but descriptive summary of the content in this module.
 
 ## Content
 
-| Lesson | Time | Learning Objectives |
-| ------ |:----------:|:------ |
-| [Builder Design Pattern](../builder-design-pattern/README.md) | 30 min | Examine the advantages and limitations of builder design patterns.  |
-| [Builder Design Pattern Code-Along](../builder-design-patterns-code-along/README.md) | 25 min | Practice implementing the builder design pattern to construct complex objects with a controlled configuration.  |
-| [Builder Design-Pattern Discussion](../builder-design-patterns-discussion/README.md) | 35 min | Engage in group discussions about Java design patterns.  |
-| **Total content**  | 90 min |  |
+| Lesson | Est. Delivery Time | Skills |
+| ------ |:------------------:| ------ |
+| [Setup](../setup/README.md)                                                       |       5 min | Set up the development environment.                                                                             |
+| [Builder Design Pattern](../builder-design-pattern/README.md)                     |      30 min | Examine the advantages and limitations of builder design patterns.                                              |
+| [Builder Design Pattern in Action](../builder-design-pattern-in-action/README.md) |      25 min | Practice implementing the builder design pattern to construct complex objects with a controlled configuration.  |
+| [Design Patterns Discussion](../design-patterns-discussion/README.md)             |      35 min | Engage in group discussions about Java design patterns.                                                         |
+| **Total content**                                                                 | 1 hr 30 min |                                                                                                                 |
 
-### Additional Resources:
+## References
 
-- "Design Patterns: Elements of Reusable Object-Oriented Software" by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
-- "Head First Design Patterns" by Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra
-- "Refactoring: Improving the Design of Existing Code" by Martin Fowler
-- "Design Patterns in Java" by Steven John Metsker
-- "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin
-- "Effective Java" by Joshua Bloch
+📖 [Reference Materials](../references/README.md)

@@ -1,4 +1,7 @@
-# ![Builder Design Pattern](./assets/builder-design-pattern_1.png)
+<h1>
+  <span class="headline">Builder Design Pattern in Java</span>
+  <span class="subhead">Builder Design Pattern</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to examine the advantages and limitations of builder design patterns. 
 

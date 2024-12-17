@@ -1,0 +1,32 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  videoUrl = ""
+}
+
+builderDesignPattern = new Template.Microlesson {
+  friendlyName = "Builder Design Pattern"
+  dirName = "builder-design-pattern"
+  type = "Content"
+  videoUrl = ""
+}
+
+builderDesignPatternInAction = new Template.Microlesson {
+  friendlyName = "Builder Design Pattern in Action"
+  dirName = "builder-design-pattern-in-action"
+  type = "Content"
+  videoUrl = ""
+}
+
+designPatternsDiscussion = new Template.Microlesson {
+  friendlyName = "Design Patterns Discussion"
+  dirName = "design-patterns-discussion"
+  type = "Content"
+  videoUrl = ""
+}
+
