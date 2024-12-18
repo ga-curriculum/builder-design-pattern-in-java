@@ -24,7 +24,6 @@ courses {
       mls.setup
       mls.builderDesignPattern
       mls.builderDesignPatternInAction
-      mls.designPatternsDiscussion
     }
   }
   new {
@@ -34,7 +33,6 @@ courses {
       mls.setup
       mls.builderDesignPattern
       mls.builderDesignPatternInAction
-      mls.designPatternsDiscussion
     }
   }
   new {
@@ -44,7 +42,6 @@ courses {
       mls.setup
       mls.builderDesignPattern
       mls.builderDesignPatternInAction
-      mls.designPatternsDiscussion
     }
   }
 }

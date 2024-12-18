@@ -3,19 +3,41 @@
   <span class="subhead">Builder Design Pattern</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to examine the advantages and limitations of builder design patterns. 
+**Learning objective:** By the end of this lesson, you'll be able to identify the problem contexts, during your programming tasks, in which the singleton design pattern is the best solution.
 
-### Builder design pattern (10 minutes)
+## Problem: A pizza shop
+Imagine a pizza shop that lists a variety of ways for customers to customize their pizzas on their menu, as shown below: 
 
-The Builder pattern is a creational design pattern that separates the construction of a complex object from its
-representation, allowing the same construction process to create different representations. This pattern is particularly
-useful when dealing with complex objects that require multiple steps to be constructed, or when there are different
-variations of the same object.
+- **Size**: A customer can choose one of the three sizes - Small, Medium, or Large.
+- **Crust**: A customer can choose on of the three crust types - Thin, Pan, or Stuffed.
+- **Toppings**: A customer can choose nothing to any number of offered ingredients as toppings - Cheese, Vegetables, Chicken, etc.
 
-Let's suppose we want to build a `Pizza` object which can have various `toppings`, `size`, and `crust` type. We'll
-create a `PizzaBuilder` class to facilitate the construction of `Pizza` objects step by step.
+The pizza shop guarantees that their kitchen will deliver any pizza order with in 10 minutes. Now let's translate it to OOP programming paradigm. Each pizza is a product (an object instance) that needs to be created. In order to avoid delays, the pizza shop can employ a chef and an oven (constructor code block) for every permutation and combination of pizzas (Classes of pizzas) that are in the offering. Everytime, a customer gives a customized order, the corresponding class and it's contructor can create the pizza. However, this is coding intensive (code of classes and their constructors) and space intensive (Memory area to load and store the classes to be accessible anytime) 
 
-#### Advantages of Builder Design Pattern: (10 minutes)
+Or, the pizza shop can prepare all possible permutations an combinations of pizzas well in advance and keep (pizza objects). That way when a customer orders any pizza, they just need to serve it. However, that would also need an enormous amount of space to store all the pizzas (heap memory to store the pizza objects). A lot of those pizzas might never get ordered.
+
+The constaint of space (memory) and computing power (number of pizza maker can make simultaneously). To reduce this problem to its fundamentals, what needs to be solved is: How can a program (pizza shop) create any complex object (pizzas) as per customized requirements, with:
+- Least number of classes (Recipes for pizza)
+- An equal and reasonable number of statement executions (time taken) for creating any object
+- Least amount of constructor code (chefs and ovens)
+
+
+## The builder design pattern
+
+The Builder pattern is a creational design pattern that separates the construction of an object from its
+representation, allowing the same construction process to build a variety objects step-by-step in a controlled manner. This pattern is particularly useful when dealing with complex objects that require multiple steps to be constructed, or when there are different variations of the same object.
+
+### Components of a builder design pattern
+
+The Builder design pattern has the following components:
+
+- **Product**: The complex object being built (e.g., Pizza).
+- **Builder**: Abstract interface or base class that defines the steps to build the object.
+- **Concrete Builder**: Implements the Builder interface to create and assemble the parts of the product.
+- **Director** (Optional): Orchestrates the building process using the Builder.
+
+
+### Advantages of builder design pattern
 
 - **Separation of Concerns**: Builder pattern separates the construction of a complex object from its representation,
   allowing the same construction process to create different representations. This promotes cleaner and more modular
@@ -33,7 +55,7 @@ create a `PizzaBuilder` class to facilitate the construction of `Pizza` objects 
   multiple steps to be constructed or have optional parameters. By breaking down the construction process into smaller,
   manageable steps, builders simplify the creation of complex objects.
 
-#### Considerations and Criticisms: (10 minutes)
+### Limitations of builder design pattern
 
 - **Overhead**: Implementing the Builder pattern may introduce additional overhead compared to creating objects
   directly, especially for objects with simple construction requirements. This overhead comes from the additional
@@ -50,3 +72,13 @@ create a `PizzaBuilder` class to facilitate the construction of `Pizza` objects 
 - **Dependency Injection Challenges**: When using dependency injection with builder pattern, injecting dependencies into
   the builder class and passing them to the constructed object may introduce additional complexity and boilerplate code.
   This can make the code harder to maintain and test.
+
+### Most suitable problem contexts to use builder design pattern
+- When creating objects with many optional parameters.
+- When constructing immutable objects.
+- When object construction involves complex validation or steps.
+- In scenarios where the object’s construction process needs to be flexible and reusable.
+
+### When NOT to use builder design pattern
+- For simple objects with a few attributes.
+- When the object’s structure is unlikely to change or when all attributes are always mandatory.

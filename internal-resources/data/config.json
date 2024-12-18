@@ -48,16 +48,6 @@
           "videoUrl": "",
           "videoLengthInMinutes": 0,
           "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "Design Patterns Discussion",
-          "dirName": "design-patterns-discussion",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
         }
       ],
       "isHeaderShown": true,
@@ -117,16 +107,6 @@
           "videoUrl": "",
           "videoLengthInMinutes": 0,
           "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "Design Patterns Discussion",
-          "dirName": "design-patterns-discussion",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
         }
       ],
       "isHeaderShown": true,
@@ -180,16 +160,6 @@
         {
           "friendlyName": "Builder Design Pattern in Action",
           "dirName": "builder-design-pattern-in-action",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "Design Patterns Discussion",
-          "dirName": "design-patterns-discussion",
           "type": "Content",
           "skill": "",
           "learningObjective": "",

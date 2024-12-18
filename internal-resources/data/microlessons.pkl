@@ -23,10 +23,4 @@ builderDesignPatternInAction = new Template.Microlesson {
   videoUrl = ""
 }
 
-designPatternsDiscussion = new Template.Microlesson {
-  friendlyName = "Design Patterns Discussion"
-  dirName = "design-patterns-discussion"
-  type = "Content"
-  videoUrl = ""
-}
 
